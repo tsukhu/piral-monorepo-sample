@@ -1,0 +1,23 @@
+
+# setup
+
+yarn
+
+# Build debug
+
+```
+yarn debug:piral
+```
+
+# Production Build
+
+```
+yarn build:piral
+```
+# Serve production build port 8080
+
+```
+yarn serve
+```
+
+

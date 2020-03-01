@@ -6,10 +6,14 @@
   ],
   "scripts": {
     "debug:piral": "piral debug packages/app-shell",
-    "build:piral": "piral build packages/app-shell"
+    "build:piral": "piral build packages/app-shell",
+    "serve": "http-server ./dist/release"
   },
   "devDependencies": {
     "lerna": "^3.13.0",
     "piral-cli": "0.10.7"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
   }
 }
